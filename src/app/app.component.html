@@ -1,0 +1,10 @@
+<div class="content" role="main">
+  <h1 class="center">User Grid</h1>
+  <ejs-grid [dataSource]='data' [allowPaging]="true" [allowFiltering]="true" [allowSorting]="true" [pageSettings]="pageSettings">
+      <e-columns>
+        <e-column field='firstName' headerText='First Name' textAlign='Center' width=90></e-column>
+        <e-column field='lastName' headerText='Last Name' width=120></e-column>
+        <e-column field='emailAddress' headerText='Email address' textAlign='Center'width=90></e-column>
+      </e-columns>
+  </ejs-grid>
+</div>
